@@ -1,0 +1,35 @@
+{
+  "name": "restaurant-application",
+  "version": "1.0.0",
+  "description": "Restaurant application",
+  "keywords": [
+    "React",
+    "Redux",
+    "ReactDOM"
+  ],
+  "homepage": "https://github.com/ChandraPrakash-Bathula/Restaurant-Application#readme",
+  "bugs": {
+    "url": "https://github.com/ChandraPrakash-Bathula/Restaurant-Application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandraPrakash-Bathula/Restaurant-Application.git"
+  },
+  "license": "ISC",
+  "author": "Chandra Prakash Bathula",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "build": "^0.1.4",
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "run": "^1.5.0"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ]
+}
