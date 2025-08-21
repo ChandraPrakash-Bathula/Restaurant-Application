@@ -592,7 +592,7 @@ const Body = () => {
         ))} */}
 
         {/* Not using keys is not accecptable >>>>>>>> Indexes as Keys >>>>>>>> Unique Keys */}
-        
+
         {resList.map((restaurant) => (
           <RestaurantCard resData={restaurant} key={restaurant.info.id} /> //Here the JavaScript map() function returns a piece of JSX
         ))}
